@@ -1,0 +1,42 @@
+.gameArea {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.3em;
+    text-align: center;
+    cursor: grab;
+}
+
+.grid-item:hover {
+    background-color: lightsteelblue;
+}
+
+.wordToFind{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.myListSub{
+    padding: 10px;
+}
+
+.myList{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.gridContainer {
+    display: grid;
+}
+
+.message{
+    color: red;
+    font-weight: 300;
+    font-size: 20px;
+}
